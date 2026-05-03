@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/authentication")
+@RequestMapping("/api/auth")
 @RequiredArgsConstructor
 public class RegistrationController {
     private final RegistrationService registrationService;
